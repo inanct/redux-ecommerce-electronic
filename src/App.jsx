@@ -5,6 +5,9 @@ import Hero from "./components/Hero"
 import Feature from "./components/Feature"
 import TrendingProducts from "./components/TrendingProducts"
 import { Toaster } from "react-hot-toast"
+import Banner from "./components/Banner"
+import NewArrival from "./components/NewArrival"
+import Footer from "./components/Footer"
 
 
 const App = () => {
@@ -15,6 +18,9 @@ const App = () => {
         <Hero/>
         <Feature/>
         <TrendingProducts/>
+        <Banner/>
+        <NewArrival/>
+        <Footer/>
         <Toaster position="bottom-center"
   reverseOrder={false}/>
       </Provider>
